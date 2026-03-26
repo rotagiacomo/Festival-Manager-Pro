@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 
 public class FestivalManager {
-    private static ArrayList<Cantante> cantantiArr;
+    private ArrayList<Cantante> cantantiArr;
 
     public FestivalManager(){
         cantantiArr = new ArrayList<Cantante>();

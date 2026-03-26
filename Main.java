@@ -9,5 +9,11 @@ public class Main {
         festivalManager.addCantante(2, new Cantante("Cantante", "sorpresa"));
 
         System.out.println(festivalManager);
+
+        FestivalApp festivalApp = new FestivalApp(festivalManager);
+        festivalApp.registraBiglietto(new Biglietto("bab"), new Partecipante("Massimo", "Razi"));        
+        festivalApp.registraBiglietto(new Biglietto("ana"), new Partecipante("Maria", "Luci"));
+
+        System.out.println(festivalApp.elencoPartecipanti());
     }
 }
